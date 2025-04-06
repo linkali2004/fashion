@@ -15,8 +15,8 @@ const ProductItem = ({
   title: string;
   category: string;
   price: number;
-  popularity:number;
-  stock:number;
+  popularity?:number;
+  stock?:number;
 }) => {
   return (
     <div className="w-[400px] flex flex-col gap-2 justify-center max-md:w-[300px]">
@@ -37,6 +37,9 @@ const ProductItem = ({
       </p>
       <p className="text-black text-2xl text-center font-bold max-md:text-xl">
         ${price}
+      </p>
+      <p className="text-black text-2xl text-center font-bold max-md:text-xl">
+        ${popularity} with ${stock}
       </p>
       <div className="w-full flex flex-col gap-1">
         <Link
