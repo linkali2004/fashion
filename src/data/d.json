@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "title": "Classic White T-Shirt",
+    "image": "../assets/WhatsApp Image 2025-04-07 at 12.41.14 AM (1).jpeg",
+    "category": "Clothing",
+    "price": 19.99,
+    "popularity": 85,
+    "stock": 24
+  },
+  {
+    "id": "2",
+    "title": "Vintage Graphic Tee",
+    "image": "../assets/WhatsApp Image 2025-04-07 at 12.41.14 AM.jpeg",
+    "category": "Clothing",
+    "price": 25.5,
+    "popularity": 70,
+    "stock": 100
+  },
+  {
+    "id": "3",
+    "title": "Black Oversized Tee",
+    "image": "../assets/WhatsApp Image 2025-04-07 at 12.41.14 AM.jpeg",
+    "category": "Clothing",
+    "price": 22.0,
+    "popularity": 90,
+    "stock": 40
+  },
+  {
+    "id": "4",
+    "title": "Striped Cotton T-Shirt",
+    "image": "../assets/WhatsApp Image 2025-04-07 at 12.41.14 AM.jpeg",
+    "category": "Clothing",
+    "price": 29.99,
+    "popularity": 77,
+    "stock": 15
+  },
+  {
+    "id": "5",
+    "title": "Pastel Pocket Tee",
+    "image": "../assets/WhatsApp Image 2025-04-07 at 12.41.14 AM.jpeg",
+    "category": "Clothing",
+    "price": 18.99,
+    "popularity": 65,
+    "stock": 200
+  },
+  {
+    "id": "6",
+    "title": "Washed Blue T-Shirt",
+    "image": "../assets/WhatsApp Image 2025-04-07 at 12.41.14 AM (1).jpeg",
+    "category": "Clothing",
+    "price": 21.5,
+    "popularity": 72,
+    "stock": 35
+  }
+]

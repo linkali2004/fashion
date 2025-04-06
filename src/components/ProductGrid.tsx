@@ -3,6 +3,7 @@ import ProductItem from "./ProductItem";
 import { nanoid } from "nanoid";
 
 const ProductGrid = ({ products }: { products?: Product[] }) => {
+  console.log(products);
   return (
     <div
       id="gridTop"

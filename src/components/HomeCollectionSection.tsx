@@ -1,5 +1,6 @@
 import ProductGrid from "./ProductGrid";
-import ProductGridWrapper from "./ProductGridWrapper";
+
+import d from "../data/d.json" assert { type: "json" };
 
 const HomeCollectionSection = () => {
   return (
@@ -9,9 +10,9 @@ const HomeCollectionSection = () => {
           Our Collection
         </h2>
       </div>
-      <ProductGridWrapper limit={6}>
-        <ProductGrid />
-      </ProductGridWrapper>
+      
+        <ProductGrid products={d}/>
+      
     </div>
   );
 };
